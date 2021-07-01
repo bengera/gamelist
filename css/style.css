@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  /*font-size: 62.5%; 
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 40%;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 35%;
+  }
+   */ }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: powderblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem; }
+
+img {
+  width: 350px;
+  height: 250px; }
+
+.game-title {
+  text-align: center;
+  color: #000;
+  font-size: 45px;
+  padding: 2rem; }
+
+.game-box {
+  background-color: white;
+  max-width: 100%;
+  padding: 20px;
+  border: 2px solid black;
+  overflow: hidden;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 15px; }
+
+.game-name {
+  font-size: 35px; }
+
+.game-information {
+  font-size: 20px;
+  font-weight: 200;
+  padding: 1rem;
+  line-height: 30px;
+  list-style-type: square; }

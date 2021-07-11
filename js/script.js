@@ -28,6 +28,8 @@ const gameData = [{
         photo: "https://images.unsplash.com/photo-1605216391936-b8a1fbf96dd6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGdhbWVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     },
     
+    
+    
 
 ];
 
